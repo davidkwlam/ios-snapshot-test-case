@@ -27,7 +27,7 @@
 
 - (void)testViewSnapshot
 {
-  UIView *redView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 40, 40)];
+  UIView *redView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 41, 40)];
   redView.backgroundColor = [UIColor redColor];
   FBSnapshotVerifyView(redView, nil);
   FBSnapshotVerifyLayer(redView.layer, nil);
